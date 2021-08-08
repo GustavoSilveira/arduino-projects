@@ -1,4 +1,4 @@
-  // Exercício: Recursos de oscilador, portas PWM, portas lógicas, contador binario e dado eletrônico
+// Exercício: Recursos de oscilador, portas PWM, portas lógicas, contador binario e dado eletrônico
 // Aluno: Gustavo de Souza Silveira - 01/08/2021
 // Prof. Nelson Garcia - UTFPR-CT
 
