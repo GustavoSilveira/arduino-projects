@@ -130,8 +130,8 @@ void loop()
     
     // quebra a linha ao fim ou pressionando *
     if( (textoDigitado.length() >= colunasLCD) || (tecla_pressionada == '*')) { 
-	  quebraLinha();
-  	}    
+      quebraLinha();
+    }    
   }  
   delay(10);
 }
