@@ -20,7 +20,7 @@ void setup()
 {    
   // Configurando saídas digitais
   for(int i = 0; i < totalLeds; i++){
-  	pinMode(led[i], OUTPUT);
+    pinMode(led[i], OUTPUT);
     digitalWrite(led[i], LOW);
   }    
 }
@@ -48,6 +48,6 @@ void loop()
       
     posicaoLed = posicaoLed + ordem;
     
-  	timeAnterior = time;
+    timeAnterior = time;
   }
 }
