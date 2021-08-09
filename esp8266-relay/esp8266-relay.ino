@@ -77,12 +77,10 @@ void loop(){
             client.println();
             
             // Controle das GPIOs
-            if (header.indexOf("GET /2/ligar") >= 0) {
-              Serial.println("GPIO 4 on");
+            if (header.indexOf("GET /2/ligar") >= 0) {              
               estadoSaidaGPIO2 = "ligar";
               digitalWrite(saidaGPIO2, LOW);
-            } else if (header.indexOf("GET /2/desligar") >= 0) {
-              Serial.println("GPIO 4 off");
+            } else if (header.indexOf("GET /2/desligar") >= 0) {              
               estadoSaidaGPIO2 = "desligar";
               digitalWrite(saidaGPIO2, HIGH);
             }
